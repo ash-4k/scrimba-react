@@ -1,0 +1,17 @@
+.about-section, .interest-section {
+  padding: 0 2rem 1.5rem;
+}
+
+.about-section h2, .interest-section h2 {
+  font-size: 1rem;
+  margin: 0 0 5px;
+  color: white;
+  font-weight: 700;
+}
+
+.about-section p, .interest-section p {
+  font-size: 0.7rem;
+  line-height: 1.4;
+  margin: 0;
+  color: #dcdcdc; 
+}

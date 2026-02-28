@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #23252c;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  max-width: 19rem;
+  margin: 5rem auto 0;
+  background: #1a1b21;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  background: #161619;
+  padding: 1rem;  
+}

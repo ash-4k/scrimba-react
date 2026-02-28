@@ -1,0 +1,50 @@
+.buttons-section {
+  padding: 0 2rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+}
+
+/* Base button (Figma numbers) */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 115px;
+  height: 34px;
+  padding: 9px 13px 9px 11px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+  transform: translateY(-2px);
+}   /* <-- this was missing */
+
+/* Email (white) */
+.email-btn {
+  background: #ffffff;
+  color: black;
+}
+
+/* LinkedIn (blue) */
+.linkedin-btn {
+  background: #1d80e2;
+  border-color: #0A66C2;
+  color: #ffffff;
+}
+
+/* Icon sizing */
+.btn i {
+  font-size: 14px;
+  width: 14px;
+  text-align: center;
+}
