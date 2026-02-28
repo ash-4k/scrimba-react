@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: whitesmoke;
+}
+
+/* Optional: nice page background */
+body {
+  background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+  margin: 0;
+  padding: 24px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Card */
+.joke-card {
+  max-width: 420px;
+  margin: 16px auto;
+  padding: 18px 20px;
+
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e6eaf0;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* subtle hover = instant premium feel */
+.joke-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12);
+}
+
+/* text */
+.setup {
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+  color: #1f2937;
+}
+
+.punchline {
+  color: #6b7280;
+  line-height: 1.5;
+}

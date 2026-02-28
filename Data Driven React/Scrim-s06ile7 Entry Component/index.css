@@ -1,0 +1,74 @@
+html,
+body {
+    margin: 0;
+    font-family: 'Inter';
+}
+
+header {
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 55px;
+}
+
+header>img {
+    width: 24px;
+    margin-right: 7px;
+}
+
+header>h1 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: Inter;
+}
+
+.entry {
+    margin: 45px 40px;
+    display: flex;
+    gap: 1.2rem;
+    color: #2B283A;
+}
+
+.entry-image {
+    width: 7.8rem;
+    height: 10.5rem;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.64rem;
+}
+
+.location span {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    letter-spacing: 17%;
+}
+
+.location a {
+    color: #918E9B;
+}
+
+span img {
+    height: 0.65rem;
+}
+
+.entry h1 {
+    margin-top: 0;
+}
+
+.entry h6 {
+    margin: 0;
+}
+
+.entry p {
+    font-size: 0.64rem;
+    line-height: 150%;
+}
