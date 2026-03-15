@@ -1,0 +1,27 @@
+{
+  "name": "scrim-s06ivep",
+  "description": "https://scrimba.com/s06ivep/s0ugamv7vg/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.78.0",
+    "@huggingface/inference": "4.13.15",
+    "react": "19.2.4",
+    "react-dom": "^19.2.4",
+    "react-markdown": "^10.1.0",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "*"
+  },
+  "version": "1.0.0",
+  "main": "ai.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
