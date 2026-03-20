@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #0B2434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+div#root {
+    height: 100%;
+    width: 100%;
+    max-width: 20rem;
+    max-height: 20rem;
+}
+
+main {
+    background-color: #F5F5F5;
+    border-radius: 0.625rem;
+    height: 100%;
+}
